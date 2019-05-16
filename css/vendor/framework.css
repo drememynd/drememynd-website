@@ -1,0 +1,149 @@
+
+body {
+    background-color: #fdfdfd;
+    color: black;
+}
+h1, h2, h3, h4, h5, h6 {
+}
+
+.cell {
+    /* border: thin white solid; */
+}
+
+.grid-ht-full {
+    height: 100%;
+}
+
+.grid-container {
+    background-color: white;
+    /* height: 100%; */
+    border-left: thin grey solid;
+    border-right: thin grey solid;
+}
+
+.callout {
+    font-family: inherit;
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+
+.callout.primary {
+    font-family: inherit;
+    background-color: inherit;
+    color: inherit;
+    border: grey solid thin;
+}
+
+a {
+    color: blue;
+}
+
+  a:hover, a:focus {
+    color: blueviolet; }
+
+.menu .is-active > a {
+ /*   color: #320259;
+    background: #cab9d8; */
+}
+
+.menu .is-active > a:hover {
+  /*  color: #cab9d8;
+    background: #320259; */
+}
+
+.menu .is-active > a:focus {
+   /* color: #cab9d8;
+    background: #320259; */
+}
+
+
+#left-menu {
+   /* font-weight: bold; */
+}
+
+#content-area {
+    margin-top: 1em;
+}
+
+#page-title, #page-sub-title {
+    line-height: 1em;
+    /* text-align: center; */
+    white-space: nowrap;
+   /* font-family: 'Lemonada', cursive; */
+    font-weight: bold;
+}
+
+#logo-area {
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+/*
+#left-menu {
+    border: thin solid gray;
+    min-width: 20%
+}
+
+#content-area {
+    border: thin solid gray;
+    margin-left:5px;
+}
+
+.page-layout {
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+}
+
+    .main-part {
+        border: black thin solid;
+    }
+
+.hidden {
+    display: none;
+}
+
+
+    .drememynd-logo-header {
+        display: table;
+    }
+    .drememynd-logo {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .drememynd-title-box {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .drememynd-title {
+        font-size: 4em;
+        text-align: center;
+        font-family: 'Lemonada', cursive;
+        font-weight: bold;
+        line-height: 1em;
+    }
+    .drememynd-subtitle {
+        font-size: 2em;
+        text-align: center;
+        font-family: 'Lemonada', cursive;
+        font-weight: bold;
+        line-height: 1.5em;
+    }
+    .contact-info {
+        margin: 2em;
+        font-size: 2em;
+    }
+    .contact-info-head {
+        font-weight: bold;
+        font-size: larger;
+    }
+    .contact-info-title {
+        padding: .5em;
+        font-size: larger;
+    }
+    .contact-info-body {
+        padding-left: .5em;
+    }
+*/

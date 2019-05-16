@@ -1,0 +1,104 @@
+body { 
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color: {$color_dark_desat};
+    color: {$color_back};
+    background-image: url(/img/leaves_small.png); 
+    /* background-repeat: space;  */
+    /* background-size: 10%; */
+    background-position: center top;
+}
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1em;
+    font-weight: bold;
+}
+
+/*
+.cell {
+    border: thin lightgreen solid;
+}
+
+.grid-x, .grid-y {
+    border: thin lightblue solid;
+}
+*/
+
+.grid-ht-full {
+    height: 100%;
+}
+
+.grid-container {
+    color: {$color_dark};
+    background-color: {$color_back};
+    border-left: thick {$color_dark_desat} solid;
+    border-right: thick {$color_dark_desat} solid;
+    background-image: url(/img/half_tree_pale.png); 
+    background-repeat:no-repeat;
+    background-position: left top;
+    background-size: contain;
+}
+
+.callout {
+    font-family: inherit;
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+
+.callout.primary {
+    font-family: inherit;
+    background-color: inherit;
+    color: inherit;
+    border: thin solid {$color_dark};
+}
+
+a {
+    color: {$color_link};
+}
+
+a:hover, a:focus {
+    color: {$color_dark};
+}
+
+.menu .is-active > a {
+    color: {$color_dark};
+    background: {$color_light};
+}
+
+.menu .is-active > a:hover {
+    color: {$color_light};
+    background: {$color_dark};
+}
+
+.menu .is-active > a:focus {
+    color: {$color_light};
+    background: {$color_dark};
+}
+
+
+#left-menu {
+    font-weight: bold;
+}
+
+#divider-img {
+    background-image: url(/img/test_image.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+    min-height: 25px;
+}
+
+#content-area {
+    /* padding-top: .7rem; */
+    /* background-color: #fcfbfd; */
+}
+
+#page-title, #page-sub-title {
+    /* line-height: 1em; */
+    /* text-align: center; */
+    white-space: nowrap;
+    font-family: 'Lemonada', cursive;
+}
+
+#logo-area {
+    /* margin-right: 1em;
+    margin-left: 1em; */
+}
