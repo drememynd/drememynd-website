@@ -79,13 +79,6 @@ a:hover, a:focus {
     font-weight: bold;
 }
 
-#divider-img {
-    background-image: url(/img/test_image.png);
-    background-repeat: repeat-x;
-    background-size: contain;
-    min-height: 25px;
-}
-
 #content-area {
     /* padding-top: .7rem; */
     /* background-color: #fcfbfd; */
