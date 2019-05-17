@@ -8,53 +8,36 @@
 
         <link rel="stylesheet" href="css/vendor/foundation.css">
         <link rel="stylesheet" href="/css/drememynd.css" />
-        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Lemonada" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Lemonada">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>
     <body>
         <div class="grid-container">
             <div class="grid-y grid-frame">
-
-                <div class="cell shrink" >
-                    <div class="grid-x">
-                        <div class="large-12 cell">
-                            <?php echo $header; ?>
-                        </div>
-                    </div>
+                <div class="cell shrink show-for-small-only">
+                    <?php echo $headerSmall; ?>
                 </div>
-                <div class="cell auto" >
-                    <div class="grid-x grid-ht-full">
-                        <div id="left-menu" class="cell large-3 medium-3 callout">
-
-                            <div class="grid-y large-grid-frame">
-                                <div class="cell auto" >
-                                    <?php echo $leftMenu; ?>
-                                </div>
-                                <div class="cell shrink hide-for-small-only hide-for-medium-only" >
-                                    <?php echo $contactInfo; ?>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div id="content-area" class="cell callout auto">
-                            <div class="grid-y large-grid-frame">
-                                <?php /*
-                                  <div class="grid-y grid-frame">
-                                  <div id="divider-img" class="cell callout">
-                                  <div class="grid-x">
-
-                                  </div>
-                                  </div>
-                                  </div>
-                                 */ ?>
-                                <div class="cell auto">
-                                    <?php echo $content; ?>
-                                </div>
-                                <div class="cell auto hide-for-large">
-                                    <?php echo $contactInfo; ?>
-                                </div>
-                                
-                            </div>
-                        </div>
+                <div class="cell shrink show-for-medium-only">
+                    <?php echo $headerMedium; ?>
+                </div>
+                <div class="cell shrink show-for-large">
+                    <?php echo $headerLarge; ?>
+                </div>
+                <div class="cell auto show-for-small-only" >
+                    <?php echo $layoutSmall; ?>
+                </div>
+                <div class="cell auto show-for-medium-only" >
+                    <?php echo $layoutMedium; ?>
+                </div>
+                <div class="cell auto show-for-large" >
+                    <?php echo $layoutLarge; ?>
+                </div>
+                <div class="cell shrink footer-font align-self-middle " >
+                            <i class="material-icons footer-font">copyright</i> 
+                            <?php
+                            echo (date('Y')=='2019' ? '2019' : '2019-'.date('Y'));
+                            ?>
+                            Katrina Wolfe
                     </div>
                 </div>
             </div>
