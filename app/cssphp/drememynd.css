@@ -29,11 +29,11 @@ h1, h2, h3, h4, h5, h6 {
 .grid-container {
     color: {$color_dark};
     background-color: {$color_back};
-    border-left: thick {$color_dark_desat} solid;
+    border-left: thick {$color_dark_desat} solid; 
     border-right: thick {$color_dark_desat} solid;
     background-image: url(/img/half_tree_pale_left.png);
-    background-repeat:no-repeat;
-    background-position: right bottom;
+    background-repeat:no-repeat; 
+    background-position: left bottom;
     background-size: contain;
 }
 
