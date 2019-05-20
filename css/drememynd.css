@@ -1,7 +1,7 @@
 body {
     font-family: 'Alegreya Sans', sans-serif;
-    background-color: {$color_dark_desat};
-    color: {$color_back};
+    background-color: #2B133E;
+    color: #FFFADE;
     background-image: url(/img/leaves_small.png);
     /* background-repeat: space;  */
     /* background-size: 10%; */
@@ -27,10 +27,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .grid-container {
-    color: {$color_dark};
-    background-color: {$color_back};
-    border-left: thick {$color_dark_desat} solid;
-    border-right: thick {$color_dark_desat} solid;
+    color: #320259;
+    background-color: #FFFADE;
+    border-left: thick #2B133E solid; 
+    border-right: thick #2B133E solid;
     background-image: url(/img/half_tree_pale_left.png);
     background-repeat:no-repeat;
     background-position: right bottom;
@@ -48,30 +48,30 @@ h1, h2, h3, h4, h5, h6 {
     font-family: inherit;
     background-color: inherit;
     color: inherit;
-    border: thin solid {$color_dark};
+    border: thin solid #320259;
 }
 
 a {
-    color: {$color_link};
+    color: #9878B4;
 }
 
 a:hover, a:focus {
-    color: {$color_dark};
+    color: #320259;
 }
 
 .menu .is-active > a {
-    color: {$color_dark};
-    background: {$color_light};
+    color: #320259;
+    background: #CAB9D8;
 }
 
 .menu .is-active > a:hover {
-    color: {$color_light};
-    background: {$color_dark};
+    color: #CAB9D8;
+    background: #320259;
 }
 
 .menu .is-active > a:focus {
-    color: {$color_light};
-    background: {$color_dark};
+    color: #CAB9D8;
+    background: #320259;
 }
 
 
