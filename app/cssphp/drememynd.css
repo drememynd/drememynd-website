@@ -38,7 +38,7 @@ body {
 #content-area {
     margin-top: calc({padding_width} / 2);
     margin-bottom: calc({padding_width} / 2);
-    margin-right: 0.25rem;
+    margin-right: 0.;
     margin-left: {padding_width};
 }
 

@@ -1,7 +1,7 @@
 <?php
 namespace App\Control;
 
-use Engine\Control;
+use Engine\Engine\Control;
 
 /**
  * Description of ContactInfo

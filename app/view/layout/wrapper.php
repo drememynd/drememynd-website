@@ -1,7 +1,7 @@
 <?php /* DremeMynd */ ?>
 <div id="wrapper" class="column sm-grow">
 
-    <div class="row cell-padding-x sm-shrink sm-wrap md-nowrap">
+    <div class="row cell-padding-x sm-shrink sm-nowrap">
         <?php echo $header; ?>
     </div>
 
@@ -10,15 +10,15 @@
     </div>
 
     <div id="divider" class="cell"></div>
-    
+
     <div id="center-area" class="row sm-grow">
         <div id="menu-area" class="cell lg-3 show-only-lg">
             <?php echo $leftMenu; ?>
         </div>
         <div id="content-area" class="column sm-12 lg-9">
-        <div id="content-inside" class="cell sm-grow">
-            <?php echo $content; ?>
-        </div>
+            <div id="content-inside" class="cell sm-grow">
+                <?php echo $content; ?>
+            </div>
         </div>
     </div>
 
