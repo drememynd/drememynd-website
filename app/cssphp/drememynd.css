@@ -4,24 +4,38 @@ body {
     background-position: center top;
 }
 
-#content-body {
-    background-image: url(/img/half_tree_pale_left.png);
-    background-repeat:no-repeat;
-    background-position: left bottom;
-    background-size: contain;
+
+@media screen and (max-width: 479px) {
+
+    body {
+        background-image: none;
+    }
 }
 
-.material-icons.footer-font {
-    font-size: .7rem;
+#content-body {
+}
+
+.experience * {
+    font-size: 0.9rem;
 }
 
 .experience .company-name {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
+    margin-top: calc({padding_width} / 2);
 }
 
 .experience .title {
     font-weight: bold;
+    margin-top: calc({padding_width} / 4);
+}
+
+.experience .desc, .experience .desc li {
+    margin-top: calc({padding_width} / 4);
+}
+
+.experience .buffer {
+    margin-right: {padding_width};
 }
 
 #page-title, #page-sub-title {
@@ -31,6 +45,10 @@ body {
 }
 
 #center-area {
+    background-image: url(/img/half_tree_pale_left.png);
+    background-repeat:no-repeat;
+    background-position: left top;
+    background-size: 90% auto;
     border-top: 2px solid {color_rule};
     border-bottom: 2px solid {color_rule};
 }
@@ -67,4 +85,8 @@ body {
 #footer-area {
     font-size: .8rem;
     margin-top: calc({padding_width} / 2);
+}
+
+.material-icons.footer-font {
+    font-size: .7rem;
 }

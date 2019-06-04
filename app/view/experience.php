@@ -10,16 +10,16 @@
                 </div>
             <?php foreach ($company['jobs'] as $job) : ?>
                 <div class="row">
-                    <div class="cell sm-1"></div>
+                    <div class="buffer cell shrink"></div>
                     <div class="column sm-11">
                             <div class="cell title">
                                 <?php echo $job['title']; ?>
                                 (<?php echo $job['dates']; ?>)
                             </div>
-                            <div class="cell">
                                 <?php foreach ($job['desc'] as $p) : ?>
+                            <div class="cell desc">
                                     <?php if (is_scalar($p)) : ?>
-                                        <p><?php echo $p; ?></p>
+                                        <?php echo $p; ?>
                                     <?php else: ?>
                                         <ul>
                                             <?php foreach ($p as $item) : ?>
@@ -27,8 +27,8 @@
                                             <?php endforeach; ?>
                                         </ul>
                                     <?php endif; ?>
-                                <?php endforeach; ?>
                             </div>
+                                <?php endforeach; ?>
                         </div>
                     </div>
             <?php endforeach; ?>
