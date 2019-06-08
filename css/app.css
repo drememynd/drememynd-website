@@ -14,6 +14,10 @@ body {
 
 #content-body {
 }
+ 
+.content {
+    margin-bottom: calc(1rem / 4);
+}
 
 .experience * {
     font-size: 0.9rem;
