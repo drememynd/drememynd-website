@@ -31,5 +31,5 @@ their egos block progress or prevent them from changing directions when needed. 
 <div class="content">
     <strong>Good technical leaders are technical.</strong>  They have a strong background working hands on with technology, bringing that expertise to their work.  
     It's important to collaborate with both business and development leadership to identify a technical vision and drive that forward.
-    It's also important to stay in touch with the technologies the system is build with now, and might be built with in the future.
+    It's also important to stay in touch with the technologies the system is built with now, and might be built with in the future.
 </div>
