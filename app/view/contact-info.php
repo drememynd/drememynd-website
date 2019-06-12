@@ -17,4 +17,7 @@
     <div class="cell" >
         1 541 232 0036
     </div>
+    <div class="cell">
+        <br>Linkedin Profile:         <a href="https://www.linkedin.com/in/drememynd/">https://www.linkedin.com/in/drememynd/</a>
+    </div>
 </div>
